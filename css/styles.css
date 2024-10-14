@@ -1,0 +1,13 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.highlight {
+  background-color: rgb(243, 214, 51);
+}
+
+.parent {
+  display: flex;
+  width: calc(100% - 16px);
+  height: calc(100% - 16px);
+}

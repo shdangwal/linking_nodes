@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Linking Nodes</title>
+</head>
+
+<body onresize="app.resizeCanvas()">
+  <div class="parent">
+    <div class="left" id="operator_list"></div>
+    <div id="grid" class="right" ondrop="app.drop(event)" ondragover="app.allowDrop(event)"
+      onresize="app.resizeCanvas()">
+      <div class="top--bar">
+        <div class="graph_buttons">
+          <button onclick="app.exportGraph()" title="Export Grasph as CSV">
+            <img width="24" src="./img/upload_csv.svg" alt="Upload Graph" />
+          </button>
+          <button title="Upload Graph">
+            <label for="uplodFile">
+              <img width="24" src="./img/upload_csv.svg" alt="Upload Graph" />
+            </label>
+            <input type="file" id="uploadFile" onchange="app.importGraph(event, app)" />
+          </button>
+          <button onclick="app.clearGraph()" title="Clear All Nodes">
+            <img width="24" src="./img/clear.svg" alt="Clear Graph" />
+          </button>
+        </div>
+        <div class="graph_button">
+          <button onclick="app.zoomIn()" title="Increase Grid Size">
+            <img width="24" src="./img/zoom_in.svg" alt="Zoom In" />
+          </button>
+          <button onclick="app.zoomOut()" title="Decrease Grid Size">
+            <img width="24" src="./img/zoom_out.svg" alt="Zoom Out" />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="formModal" class="modal"></div>
+
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
