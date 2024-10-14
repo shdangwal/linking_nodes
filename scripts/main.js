@@ -241,7 +241,6 @@ class Form {
   }
 }
 
-
 class Draw {
   constructor() {
     this.svg = this.getCanvas(SVG_CANVAS_ID);

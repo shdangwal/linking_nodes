@@ -1,0 +1,127 @@
+[
+  {
+    "id": "input_path",
+    "text": "Input Path",
+    "cls": "type1",
+    "fields": [
+      {
+        "name": "Textbox",
+        "type": "text",
+        "validation": "alphanumeric",
+        "default": ""
+      },
+      {
+        "name": "Numeric",
+        "type": "number",
+        "validation": "numeric",
+        "default": ""
+      },
+      {
+        "name": "Date",
+        "type": "date",
+        "validation": "alphanumeric",
+        "default": ""
+      },
+      {
+        "name": "Dropdown",
+        "type": "dropdown",
+        "validation": "alphanumeric",
+        "options": [
+          {
+            "id": "111",
+            "value": "val1"
+          },
+          {
+            "id": "222",
+            "value": "val2"
+          }
+        ],
+        "default": ""
+      },
+      {
+        "name": "Radio",
+        "type": "radio",
+        "validation": "alphanumeric",
+        "options": [
+          {
+            "id": "html1",
+            "value": "HTML"
+          },
+          {
+            "id": "css1",
+            "value": "CSS"
+          }
+        ],
+        "default": "css1"
+      },
+      {
+        "name": "Checkbox",
+        "type": "checkbox",
+        "validation": "alphanumeric",
+        "options": [
+          {
+            "id": "html1",
+            "value": "HTML"
+          },
+          {
+            "id": "css1",
+            "value": "CSS"
+          },
+          {
+            "id": "javascript",
+            "value": "Javascript"
+          }
+        ],
+        "default": "css1,html1"
+      }
+    ]
+  },
+  {
+    "id": "in_file",
+    "text": "Input File",
+    "cls": "type1",
+    "fields": []
+  },
+  {
+    "id": "extract",
+    "text": "Extract",
+    "cls": "type2",
+    "fields": []
+  },
+  {
+    "id": "execute_sql",
+    "text": "Execute SQL",
+    "cls": "type3",
+    "fields": []
+  },
+  {
+    "id": "InsertFromFile_DB",
+    "text": "Insert From File to DB",
+    "cls": "type4",
+    "fields": []
+  },
+  {
+    "id": "Sort",
+    "text": "Sort",
+    "cls": "type5",
+    "fields": []
+  },
+  {
+    "id": "Filter",
+    "text": "Filter",
+    "cls": "type6",
+    "fields": []
+  },
+  {
+    "id": "Aggregation",
+    "text": "Aggregation",
+    "cls": "type7",
+    "fields": []
+  },
+  {
+    "id": "Join",
+    "text": "Join",
+    "cls": "type8",
+    "fields": []
+  }
+]
